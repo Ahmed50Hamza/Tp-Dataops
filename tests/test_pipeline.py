@@ -119,20 +119,20 @@ def test_every_allowed_country_is_kept() -> None:
     assert rejected.empty
 
 
-def test_initial_day_one_data_matches_guide_total(tmp_path: Path) -> None:
+def test_latest_day_one_data_matches_guide_total(tmp_path: Path) -> None:
     project_root = Path(__file__).resolve().parents[1]
     input_path = project_root / "data" / "raw" / "orders_day1.csv"
 
-    assert len(pd.read_csv(input_path)) == 30
-    assert run(input_path, tmp_path / "output") == 7655.90
+    assert len(pd.read_csv(input_path)) == 35
+    assert run(input_path, tmp_path / "output") == 8835.40
 
 
-def test_initial_day_one_data_rejects_five_unknown_countries() -> None:
+def test_latest_day_one_data_keeps_thirty_and_rejects_five() -> None:
     project_root = Path(__file__).resolve().parents[1]
     orders = pd.read_csv(project_root / "data" / "raw" / "orders_day1.csv")
 
     clean, rejected = clean_orders(orders)
 
-    assert len(clean) == 25
+    assert len(clean) == 30
     assert len(rejected) == 5
     assert rejected["reject_reason"].eq("unknown_country").all()
