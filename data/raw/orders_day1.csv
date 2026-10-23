@@ -1,0 +1,31 @@
+order_id,date,customer_id,country,product,quantity,unit_price
+1000,2026-10-01,C001,France,Monitor,1,300.0
+1001,2026-10-01,C002,Germany,Keyboard,1,300.0
+1002,2026-10-01,C003,Italy,Office chair,1,300.0
+1003,2026-10-01,C004,Morocco,Webcam,1,300.0
+1004,2026-10-01,C005,Tunisia,Headset,1,300.0
+1005,2026-10-02,C006,France,Monitor,1,300.0
+1006,2026-10-02,C007,Germany,Keyboard,1,300.0
+1007,2026-10-02,C008,Italy,Office chair,1,300.0
+1008,2026-10-02,C009,Morocco,Webcam,1,300.0
+1009,2026-10-02,C010,Tunisia,Headset,1,300.0
+1010,2026-10-03,C011,France,Monitor,1,300.0
+1011,2026-10-03,C012,Germany,Keyboard,1,300.0
+1012,2026-10-03,C013,Italy,Office chair,1,300.0
+1013,2026-10-03,C014,Morocco,Webcam,1,300.0
+1014,2026-10-03,C015,Tunisia,Headset,1,300.0
+1015,2026-10-04,C016,France,Monitor,1,300.0
+1016,2026-10-04,C017,Germany,Keyboard,1,300.0
+1017,2026-10-04,C018,Italy,Office chair,1,300.0
+1018,2026-10-04,C019,Morocco,Webcam,1,300.0
+1019,2026-10-04,C020,Tunisia,Headset,1,300.0
+1020,2026-10-05,C021,France,Monitor,1,300.0
+1021,2026-10-05,C022,Germany,Keyboard,1,300.0
+1022,2026-10-05,C023,Italy,Office chair,1,300.0
+1023,2026-10-05,C024,Morocco,Webcam,1,300.0
+1024,2026-10-05,C025,Tunisia,Headset,1,455.9
+1025,2026-10-05,C026,Spain,Monitor,1,300.0
+1026,2026-10-05,C027,United Kingdom,Keyboard,1,300.0
+1027,2026-10-05,C028,Portugal,Office chair,1,300.0
+1028,2026-10-05,C029,Canada,Webcam,1,300.0
+1029,2026-10-05,C030,United States,Headset,1,300.0
